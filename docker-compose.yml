@@ -9,7 +9,7 @@ services:
     MYSQL_ROOT_USER: admin
     MYSQL_ROOT_PASSWORD: admin
    volumes:
-    - "./data/_data:/var/lib/mysql"
+    - "~/database/data/_data:/var/lib/mysql"
    ports:
     - "3306:3306"
 
