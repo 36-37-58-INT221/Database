@@ -1,4 +1,3 @@
-FROM mysql/mysql-server
-COPY . .
+FROM mysql
 ENV  MYSQL_ROOT_PASSWORD=Abc123456789
 EXPOSE 3306:3306
