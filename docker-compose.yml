@@ -10,7 +10,6 @@ services:
     MYSQL_ROOT_PASSWORD: admin
    volumes:
     - "~/database/data/_data:/var/lib/mysql"
-    - "~/database/data/my.cnf:/etc/my.cnf"
    ports:
     - "3306:3306"
 
