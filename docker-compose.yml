@@ -5,7 +5,7 @@ services:
    image: 221mysql
    container_name: 221mysql
    environment: 
-    MYSQL_DATABASE: mydb
+    MYSQL_DATABASE: int221
     MYSQL_ROOT_USER: admin
     MYSQL_ROOT_PASSWORD: admin
    volumes:
